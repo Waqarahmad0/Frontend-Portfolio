@@ -1,0 +1,584 @@
+
+#home{
+    background-image: url(../images/Homepage_image.jpg) !important;
+    background-size: cover;
+    position: relative;
+    padding: 5% 0;
+    z-index: 1; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "polysans" sans-serif;
+}
+.dropbtn-services::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    position: absolute;
+    color: #c93012 !important;
+    transition-duration: .35s !important;
+}
+nav.scrolled{
+    padding: 1rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#fff;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    z-index: 99;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+nav.scrolled .nav-link{
+    color: #0e2133!important;
+    font-weight: 500 !important;
+}
+nav.scrolled .navbar-brand{
+    filter: brightness(0%);
+}
+nav.scrolled .svg-icon{
+    fill: #0a2133 !important;
+}
+nav.scrolled .button-hover-effect{
+    font-size: 16px;
+    font-weight: 400 ;
+    color:#0a2133;
+    border: 1px  solid #0a2133 ;
+}
+.customize-nav{
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+    position: relative;
+    z-index: 0;
+
+}
+.customize-nav:hover{
+    padding: 1rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#fff;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    z-index: 99;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+.customize-nav:hover .button-hover-effect svg{
+  
+    fill: #161616 !important;
+    
+}
+.customize-nav:hover .nav-link{
+    color: #0e2133!important;
+    font-weight: 500 !important;
+}
+.customize-nav:hover .navbar-brand{
+        filter: brightness(0%);
+        
+
+}
+.customize-nav:hover  .svg-icon{
+    fill: #0a2133 !important;
+
+}
+
+.svg-icon{
+    fill: #fff !important;
+}
+.customize-nav:hover .button-hover-effect {
+    font-size: 16px;
+    font-weight: 400 ;
+    color:#0a2133;
+    border: 1px  solid #0a2133 ;
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    text-transform: capitalize;
+    line-height: 1rem;
+    font-weight: 400;
+}
+.nav-item a:hover{
+color: #ffffff;
+}
+.dropdown-menu{
+    width:100%;
+    left: 0;
+    right: 0;
+    top: 98px !important;
+    position: absolute;
+    border-bottom: none !important;
+    border-top-right-radius:0 !important;
+    border-top-left-radius: 0 !important;
+    }
+    .dropdown-menu-resources{
+        position: absolute;
+        top: 45px !important;
+    }
+    .dropdown-item {
+        color: black !important ; 
+    }
+    .dropdown-item:hover {
+        color:#0e2133; 
+    }
+ 
+    .dropbtn-services{
+        font-size: 16px !important;
+        color: #fff !important;
+    }
+    .col-megamenu p{
+        margin-left: 10%;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .megamenu li {
+        display: flex;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+    .megamenu li a {
+        color: #262b3f;
+        font-size: 1rem;
+        padding-left: 0;
+        font-weight: 400;
+        line-height: 2;
+        text-decoration: none;
+        position: relative;
+    }
+    .megamenu li a i{
+        font-size: 12px;
+        color: #F26223;
+        position: relative;
+        text-transform: uppercase;
+    }
+    .menu-heading {
+        font-style: normal;
+        
+        position: relative;
+    margin-left: 10%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    
+    .menu-heading-advisory {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        position: relative;
+        margin-left:10%;
+        margin-top: 8%;
+    }
+    .new-class-heading{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        position: relative;
+        margin-left:7%;
+        margin-top: 8%;
+    }
+    .menu-links-wrp{
+        margin-top: 13%;
+    }
+    .menu-links>li>a {
+        font-size: 16px !important; 
+        font-style: normal;
+        font-weight: 300 !important; 
+        line-height: 22px !important;
+     margin-left: 11px;
+    }
+    .border-line{
+        border-left: 1px solid #0a2133;
+    }
+    .bg-grey{
+        background: #f2f2f2;
+    }
+    .menu-links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+   
+    .menu-links-hover{
+        color: #0a2133 !important;
+        text-decoration: none!important;
+    }
+    #services-now{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .list-top li a {
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        line-height: 24px !important;
+        margin-left: 10%;  
+    }
+    .elementor-icon-list-text{
+        color: #849488;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 10%;
+    }
+.cta-wrapper{
+    padding: 5px 20px 4px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    font-weight: 400;
+}
+.cta-wrapper-briefing {
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    font-weight: 400;
+}
+
+    .cta-container:hover a {
+        color: #fff !important;
+        background-color: #0e2133;
+        border: 1px solid #0e2133;
+    }
+    .cta-container:hover a svg path{
+        fill: #fff !important;
+    }
+
+    .cta-wrapper .cta-svg {
+        top: 0;
+        margin-left: 15px;
+        position: relative;
+    }
+
+
+    .cta-container-max:hover a {
+        color: #000 !important;
+        background-color: #d5e3f0;
+        border: 1px solid #d5e3f0;
+    }
+    .cta-container-max:hover a svg path{
+        fill: #000 !important;
+    }
+
+    .cta-wrapper .cta-svg {
+        top: 0;
+        margin-left: 15px;
+        position: relative;
+    }
+
+    .home-heading h1{
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #fff;
+        padding-top: 10%;
+        position: relative;
+    }
+    .home-heading h2{
+        position: relative;
+        font-size: 66px;
+        font-weight: 400;
+        line-height: 76px;
+        color: #fff;
+        position: relative;
+        margin-top: 3%;
+    }
+    .home-heading p{
+        position: relative;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 42px;
+        color: #fff;
+        position: relative;
+        margin-top: 3%;
+    }
+    #meet-afiniti{
+background-color: #0a2133;
+padding: 2% 0;
+border-bottom: 1px solid #d5e3f0;
+    }
+    .afiniti-heading h2{
+        color: #fff;
+        font-size: 30px;
+    }
+    .afiniti-heading a{
+        color: #ffffff;
+    }
+    .slider-one-heading h2{
+        font-size: 66px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .slider-one-heading p{
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+    }
+    #slider-one{
+       background-color: #0a2133;
+       padding: 5% 0;
+    }
+    .image-text-container img{
+        width: 300%;
+        height: 300%;
+    }
+    .elementor-heading-title{
+        font-size: 53px;
+        color: #fff;
+    }
+    .elementor-p{
+        font-size: 18px;
+        color: #fff;
+    }
+    .Afiniti-CX{
+        border: 1px solid #fff;
+        padding: 5%;
+    }
+    .elementor-size-default{
+        font-size: 23px;
+        color: #fff;
+    }
+    .elementor-size-p{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 300;
+    }
+    #slider-two{
+        background-color: #fff;
+        padding: 5% 0;
+        position: relative;
+    }
+    .elementor-widget-slider-container h2{
+        color: #0a2133;
+        font-size: 53px;
+font-weight: 400;
+    }
+    .elementor-widget-slider-container p{
+        color: #000;
+        font-size: 18px;
+font-weight: 300;
+    }
+
+    .body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow: hidden ;
+        
+        
+      }
+  
+      .swiper-coverflow {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+      }
+  
+      .coverflow-slider {
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 50%;
+      }
+  
+      .coverflow-slider img {
+        display: block;
+        width: 100%;
+      }
+      
+    
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: absolute;
+        bottom: 10px; /* Adjust distance from the bottom */
+        transform: translateY(-50%);
+        z-index: 10;
+        font-size: 5px;
+    }
+    
+    .swiper-button-next {
+        right: 40%;
+        top: 100%;
+
+    }
+    
+    .swiper-button-prev {
+        left: 40%;
+        top: 100%;    }
+    
+
+    
+ 
+    
+ 
+
+.coverflow-slider-1{
+    background-image: url(../images/Telco-Landing-Prog.webp);
+    padding: 5%;
+    background-size: cover; 
+}
+.coverflow-slider-2{
+    background-image: url(../images/Finance-Landing-prog.webp);
+    padding: 5%;
+    background-size: cover; 
+}
+.coverflow-slider-3{
+    background-image: url(../images/Insurance-Landing-Prog.webp);
+    padding: 5%;
+    background-size: cover; 
+}
+.coverflow-slider-4{
+    background-image: url(../images/Healthcare-Landing-Prog.webp);
+    padding: 5%;
+    background-size: cover; 
+}
+.telco-media  h3{
+    font-size: 66px;
+    color: #fff;
+}
+.telco-media-text{
+    font-size: 20px;
+    margin: 20px 0 50px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.learnmore{
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    font-weight: 400;
+}
+.slider-2-btn{
+    display: inline-block;
+    margin-top: 5%;
+}
+.slider-2-btn:hover a {
+    color: #000 !important;
+    background-color: #d5e3f0;
+    border: 1px solid #d5e3f0;
+}
+.slider-2-btn:hover a svg path{
+    fill: #000 !important;
+}
+
+ #respponsible{
+   background: #456b73;
+        padding: 5% 0;
+      }
+      .Responsible-heading h2{
+        font-size: 66px;
+        color: #fff;
+      }
+      .Responsible-heading p{
+        margin-top: 30px;
+        font-size: 18px;
+        color: #fff;
+      }
+      .responsible-heading{
+        font-size: 17px;
+        color: #fff;
+        font-weight: 400;
+        margin: 5%;
+      }
+      .responsible-heading-p{
+        font-size: 16px;
+        color: #fff;
+        margin-left: 5%;
+        font-weight: 400;
+      }
+      #Maximize-cx-perfo{
+        padding: 5% 0;
+        background-image: url(../images/product-dot-1536x424.png);
+        background-size: cover;
+        background-color: #676c77;
+      }
+      .elementor-grid-item{
+        border: 1px solid #fff;
+        padding: 3%;
+      }
+      .elementor-grid-item:hover{
+        background-color: #0a2133;
+        border: none;
+      }
+      .elementor-icon{
+        fill: #fff;
+        color: #fff;
+      }
+.Maximize-heading{
+    font-size: 66px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 5%;
+}
+.Maximize-img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #0a2133;
+}
+.elementor-nav-menu--main {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    height: 100%; /* Set the height to match its parent container */
+}
+
+.elementor-nav-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.elementor-nav-menu .menu-item {
+    margin: 0 17px; /* Adjust spacing between menu items */
+    text-decoration: none;
+}
+.elementor-nav-menu .menu-item a{
+    text-decoration: none;
+    color: #fff;
+}
+.elementor-nav-menu .menu-item:hover a{
+    color: #c93012;
+}
+.footer-text{
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+  .Maximize-img{
+margin-top: 5%;
+  }
+  .home-heading{
+    margin-top: 20%;
+  }
+  .home-heading h1{
+    font-size: 50px;
+}
+.home-heading h2{
+    font-size: 40px;
+}
+
+  }
