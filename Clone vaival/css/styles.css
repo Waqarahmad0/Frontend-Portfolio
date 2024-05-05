@@ -1,0 +1,432 @@
+.home{
+    background-image: url(../images/bannerimage.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+.nav-link-custom a{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #2169f7 !important; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-link-new a{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #ffffff !important; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-link-new a:hover{
+    color: #2169f7 !important; 
+    transition: all 0.5s ease-in-out;
+
+}
+.nav-link-custom a:hover{
+  transition: all 0.5s ease-in-out;
+    color: #2169f7 !important; 
+}
+
+.Dropdown-new-list {
+    width: 350px !important;
+}
+.Dropdown-new-list-x li{
+    width: 100% !important;
+}
+.Dropdown-new-list-x {
+    width: 100% !important;
+}
+.Dropdown-new-list-x li a{
+    color: #4f4e4e !important;
+    padding: 10px 70px 10px 10px !important;
+    text-decoration: none;
+}
+.Portfolio-dropdown{
+ width: 200px !important;
+}
+.slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  .slider {
+    position: relative;
+    width: 100%; /* Make slider container responsive */
+    max-width: 800px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Center the slider */
+  }
+  
+
+  
+  /* Adjust slide dimensions as needed */
+  .slide img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .elementor-slide-heading:not(:last-child) {
+    margin-bottom: 10px;
+}
+.elementor-slide-heading {
+    font-family: montserrat, Sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #ffffff;
+    margin-top: 20%;
+}
+.elementor-slide-description {
+    font-family: open sans, Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #ffffff;
+}
+.elementor-slide-button {
+    font-family: poppins, Sans-serif;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: #2169f7;
+    border-color: #2169f7;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px 40px;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+}
+.elementor-slide-button:hover {
+    background: transparent;
+    color: inherit;
+    text-decoration: none;
+    border: 2px solid #fff;
+
+    border-color: #2169f7;
+color: #fff;
+}
+.elementor-heading-title {
+    font-size: 32px;
+    color: #000;
+    font-family: montserrat, Sans-serif;
+    font-weight: 700;
+}
+.brand-services{
+    position: relative;
+    padding: 5% 0;
+    text-align: center;
+}
+.list-image{
+        border-style: solid;
+        border-width: 0 1px 1px 0;
+        border-color: #e9ecef;
+        padding: 10px;
+        transition:  .3s, border .3s, border-radius .3s, box-shadow .3s;
+}
+.list-image img{
+    text-align: left;
+}
+.services-list ul li{
+text-align: left;
+}
+
+  
+.elementor-icon-list-icon svg {
+    fill:#2169f7;
+    width: 0.5em;
+height: 0.5em;
+  }
+  .elementor-icon-list-icon i {
+}
+.elementor-icon-list-text{
+    color: #4f4e4e;
+    padding: 0 0 0 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.elementor-element-populated {
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: #e9ecef;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+}
+.whe-we-are{
+    background-image: url(./images/Bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 5% 0;
+}
+
+.completed-project img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.completed-project-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.completed-project-text .elementor-icon-box-title{
+        margin-bottom: 16px;
+        color: #2169f7;    
+        font-size: 30px;
+        line-height: 1.3px;
+font-weight: 700;
+}
+
+.elementor-icon-box-description {
+    color: #000;
+    font-family: open sans, Sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.2em;    
+}
+.completed-project-text-boxshedow{
+    background-color: #fff;
+    padding: 50px;
+}
+
+.heading-essence h2{
+    color: #000;
+    font-family: montserrat, Sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+.heading-essence p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0 24px;
+}
+.staff-augmentation{
+    position: relative;
+    padding: 5% 0;
+    
+}
+.staff-augmentation-heading .first-h2{
+    color: #000;
+    font-family: montserrat, Sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+.staff-augmentation-heading .second-h2{
+    color: #000;
+    font-family: montserrat, Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+.hire-now-btn{
+    color: #fff;
+    background-color: #00f;
+    border-color: #00f;
+    font-size: 14px;
+    padding: 20px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    border-style: solid;
+    border-radius: 39px 39px 39px 39px;
+    text-decoration: none;
+}
+.hire-now-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #00f;
+    border-color: #00f ;
+    text-decoration: none;
+}
+.Technologies-section{
+    position: relative;
+    padding: 5% 0;
+    text-align: center;
+}
+.Industries-server{
+    position: relative;
+    padding: 5% 0;
+    text-align: center;
+    background-image: url(./images/Group-8610.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.e-commerce-heading{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 4%;
+}
+.e-commerce-p{
+    font-size: 16px;
+    color: #4f4e4e;
+}
+.elementor-widget-container {
+    padding: 40px 40px 50px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #d9d9d9;
+}
+.hover-class:hover{
+background-color: #fff;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-bottom: 8px solid #00f;
+border-radius: 3%;
+
+}
+.Portfolio-heading h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #000;
+}
+.Portfolio-section{
+    padding: 5% 0;
+    position: relative;
+    text-align: center;
+}
+.form{
+    position: relative;
+    padding: 5% 0;
+    background-color: #2169f7;
+}
+.contact-us h2{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+}
+.form-heading-h3 h3{
+    color: #fff;
+    
+    margin-bottom: 5%;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footerform .col-md-6 input {
+    background: none;
+    border-bottom: 1px solid white !important;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 0px;
+}
+::placeholder {
+    color: #fff;
+  }
+  .footerform textarea.wpcf7-form-control.wpcf7-textarea {
+    background: none;
+    border-bottom: 1px solid white !important;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 95%;
+    border-radius: 0px;
+}
+.footerform input.wpcf7-form-control.wpcf7-submit {
+    width: 95%;
+    padding: 15px;
+    border-radius: 70px;
+    background: white;
+    color: blue;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+.footerform input.wpcf7-form-control.wpcf7-submit:hover{
+    background-color: #00f;
+    color: #fff;
+    border-color: #fff;
+}
+input[type=submit] {
+    border: 1px solid;
+    border-color: #ccc #ccc #bbb;
+   
+    line-height: 1;
+}
+.footer-section{
+    background-color: #f9fafa;
+    padding-top: 5%;
+}
+.first-col-p{
+    text-align: left;
+    font-family: open sans, Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4e4e;
+}
+.socal-icon svg{
+    color: #2169f7;
+}
+.list-1 ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+    color: #4f4e4e;
+    text-decoration: none;
+}
+.footer-list-heading h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.list-1 ul li a:hover{
+    color: #2169f7;
+    transition: all 0.5s ease-in-out;
+}
+.brand-heading h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5%;
+}
+.slider-row{
+    background-color: #fff;
+    margin-top: 5%;
+}
+.footer-bottom-bg{
+    background-color: #2169f7;
+    padding: 1% 0;
+    position: relative;
+}
+.copy-right p{
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
