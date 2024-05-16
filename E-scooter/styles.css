@@ -1,0 +1,505 @@
+
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #42454A;
+ }
+ html {
+    min-width: 100%;
+    background-size: contain;
+ }
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 2px solid #eae8f3;
+    color: #42454A;
+    font-weight: 400;
+    font-size: 14px;
+}
+#nav-color{
+    color: #42454A;
+}
+.btn-login{
+    font-size: 14px;
+    font-weight: 400;
+    background: #FFFFFF;
+    width: 106px;
+    height: 48px;
+    border-radius: 4px;
+    margin-right: 1%;
+    box-shadow: 0px 12px 25px -10px #0000000A;
+
+
+
+}
+.btn-dark{
+font-size: 14px;
+background: #42454A;
+font-weight: 400;
+border-radius: 4px;
+width: 106px;
+height: 48px;
+box-shadow: 0px 12px 25px -10px #42454A4D;
+
+}
+.ride-future{
+    margin-top: 100px;
+}
+.ride-future h1{
+text-transform:uppercase;
+font-size: 90px;
+line-height: 95px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+.ride-future span{
+font-weight:700;
+}
+.ride-future hr{
+    width: 335px;
+    height: 4px;
+   margin-top: 100px;
+}
+.ride-future p{
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0.01em;
+text-align: left;
+width: 353px;
+height: 68px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.icon{
+    background-color: #42454A;
+display:inline-flex;
+justify-content: center;
+align-items: center;
+height: 58px;
+width: 58px;
+text-align: center;
+}
+.icon svg{
+  color: #F7EAE3;
+}
+.watch-video{
+font-size: 18px;
+font-weight: 900;
+line-height: 25px;
+letter-spacing: 0.01em;
+width: 87px;
+height: 75px;
+display: inline-block;
+color: #414449;
+position: relative;
+top: 20px;
+left: 30px;
+}
+.play-btn{
+    position: relative;
+    bottom: 10px;
+}
+.buy-now{
+    color: #17181A;
+    font-size: 20px;
+    font-family: Ubuntu;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.hero-img img{
+    margin-top: 100px;
+}
+#timer{
+    padding: 5% 0;
+}
+.timer-boxes h4{
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.timer-boxes span{
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+}
+.timer-boxes h5{
+font-size: 13px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: center;
+}
+.timer-boxes{
+border: 2px solid #f4f4f4;
+width: 174px;
+height: 137px;
+border-radius: 6px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 13.211169242858887px 26.422338485717773px 0px #0000000F;
+
+}
+#product-information{
+    text-align: center;
+    padding: 5% 0;
+}
+.product-information h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.product-information p{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+}
+.product-list{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-list a{
+    text-decoration: none;
+    color: #42454A;
+}
+#motor-efficiency{
+text-align: center;
+padding: 5% 0;
+}
+.motor-heading h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: center;   
+}
+.motor-heading p{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+}
+.golf-bag-heading h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+.Shopping-list{
+    text-align: left;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.Shopping-list a{
+    text-decoration: none;
+    color: #42454A;
+}
+#accessories{
+    text-align: center;
+    padding: 5% 0;
+}
+.btn-acceccories{
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+width: 444px;
+height: 94px;
+border: 2px solid #42454A;
+border-radius: 10px;
+}
+#gallery-section{
+    padding: 5% 0;
+    position: relative;
+}
+.quality-img {
+position: relative;
+}
+.scooter-img{
+    top: 100px;
+    position: relative;
+}
+.top-left p{
+font-size: 30px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top: 35px;
+left: 35px;
+}
+.top-left-1 p{
+    font-size: 30px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+top: 35px;
+left: 35px;
+}
+.battery-img{
+    position: relative;
+    top: 100px;
+    
+}
+.btn-battery{
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+width: 90%;
+height: 94px;
+border: 2px solid #42454A;
+border-radius: 10px;
+}
+.part-img{
+    position: relative;
+}
+
+#colors{
+    position: relative;
+}
+.image-1{
+    bottom: 130px;
+    position: relative;
+}
+#testimonial{
+    padding: 5% 0;
+    background: #fafafa;
+    position: relative;
+    text-align: center;
+}
+.rating{
+    color: #FE8B75;
+    font-size: 12px;
+}
+.cards-cap p{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+}
+.cards-cap{
+    border: 1px solid #d8d8d8;
+    padding: 10% 5%;
+}
+#cards-cap{
+    background: #ffffff;
+    padding: 10% 5%;
+    border: 1px solid #d8d8d8;  
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(49, 49, 49, 0.0241);
+    box-shadow: 0px 20px 13px 0px rgba(49, 49, 49, 0.05);
+    box-shadow: 0px 38.51852035522461px 25.481481552124023px 0px rgba(49, 49, 49, 0.0607);
+
+}
+
+.left-button{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #42454A;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+.left-button svg{
+    color: #42454A;
+}
+.right-button{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fafafa;
+    background: #42454A;
+    border-radius: 50%;
+    margin-left: 2%;
+    cursor: pointer;
+    position: relative;
+}
+.right-button svg{
+    color: #fafafa;
+}
+#news-letter{
+    padding: 5% 0;
+    position: relative;
+}
+.form-control-lg{
+    background: #f5f5f5;
+    border-radius: 5px;
+    border: none;
+}
+.btn-primary{
+    background-color: #42454A;
+    border-radius: 5px;
+    border: none;
+}
+footer{
+    background: #42454A;
+    padding: 5% 0;
+    position: relative;
+}
+.footer-img img{
+    bottom: 150px;
+    position: relative;
+}
+.widget{
+    text-align: left;
+}
+.widget h3{
+    color: #fbfbfb;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.widget ul li a{
+font-size: 16px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0em;
+color: #fbfbfb;
+text-decoration: none;
+
+}
+
+.social li a{
+    background: #fafafc;
+    height: 40px;
+    width: 40px;
+
+display: inline-flex;
+justify-content: center;
+align-items: center;
+    border-radius: 50%;
+}
+.social li i{
+    color: #42454A;
+    font-size: 20px;
+}
+.Copyright p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #fbfbfb;
+}
+
+@media only screen and (max-width: 991.98px) {
+    .scooter-img{
+margin-bottom: 15%;
+    }
+    .battery-img{
+        margin-bottom: 15%;
+    }
+    .footer-img img{
+        top: 0;
+        position: relative;
+    }
+    
+}
+@media (max-width: 767.98px) {
+    .scooter-img{
+        margin-bottom: 30%;
+            }
+            .battery-img{
+                margin-bottom: 25%;
+            } 
+            .play-btn{
+               top: 10px;
+            }
+            .motor-heading {
+                  margin-bottom: -5%;
+            }
+            .quality-img{
+                margin-top: -10%;
+            }
+            .battery-img{
+                margin-top: -5%;
+
+            }
+            .part-img{
+                margin-top: -10%;
+            }
+            .scooter-img{
+                margin-top: -5%;
+            }
+         
+          
+ }
+ @media (max-width: 575.98px) { 
+    .scooter-img{
+        margin-bottom: 40%;
+            }
+            .battery-img{
+                margin-bottom: 35%;
+            } 
+            .image-1{
+                bottom: 0;
+                top: 0;
+                position: relative;
+            } 
+            .btn-acceccories{
+             
+                width: 300px;
+                height: 94px;
+             
+                }
+                .ride-future h1{
+                font-size: 70px;
+                
+                }
+                .ride-future span{
+                font-weight:700;
+                }
+                .ride-future hr{
+                    width: 270px;
+                  
+                }
+                .ride-future p{
+                font-size: 17px;
+                }
+                .timer-boxes{
+                    margin-bottom: 5%;
+                }
+         
+                .form-control-lg{
+                   width: 95%;
+                }
+                .watch-video{
+              
+                    position: relative;
+                    top: 110px;
+                    left: -175px;
+                    }
+                    .play-btn{
+                        position: relative;
+                       left: 45px;
+                       top: 22px;
+                    }
+                 
+ }
+
+
